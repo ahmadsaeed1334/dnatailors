@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+} */
+/* body{
+    min-height: 100vh;
+    overflow-x: hidden;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background:white ;
+} */
+/* header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    padding: 8px 100px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 10000;
+    background-color: white;
+} */
+/* .logo{
+    font-size: 2em;
+    color: #359381;
+    pointer-events: none;
+   
+} */
+/* .log-btn{
+    width: 80px;
+    text-decoration: none;
+    color: #359381;
+    padding: 5px 5px;
+    margin: 20px;
+    font-weight: 600;
+    border-radius: 20px;
+    border: none;
+    justify-content: space-between;
+   margin-left: 900px;
+   background: white;
+   font-size: medium;
+   font-weight: 600;
+   
+} */
+/* .sign-btn{
+    width: 80px;
+    text-decoration: none;
+    color: #359381;
+    padding: 5px 5px;
+    margin: 10px;
+    font-weight: 600;
+    border-radius: 20px;
+    border: none;
+    justify-content: space-between;
+   margin-left: 0px;
+   background: white;
+   font-size: medium;
+   font-weight: 600;
+   
+} */
+/* .freet-btn{
+    width: 90px;
+    text-decoration: none;
+    color: #359381;
+    padding: 5px 5px;
+    margin: 10px;
+    font-weight: 600;
+    border-radius: 20px;
+    border: none;
+    justify-content: space-between;
+   margin-right: 1px;
+   background: white;
+   font-size: medium;
+   font-weight: 600;
+   
+} */
+button:hover{
+    background: #359381;
+    color: white;
+}
+/* .container{
+    width: 900px;
+ padding-right: 50px;
+ padding-left: 100px;
+ padding-bottom: 40px;
+} */
+#pricing h1{
+    color: #359381;
+    text-align: center;
+    margin-top: 140px;
+}
+#pricing p{
+    color: #359381;
+    text-align: center;
+    /* padding-bottom:30px;   */
+}
+#plant{
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+    display: flex;
+    /* height: 100vh; */
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+}
+.single-price{
+    /* width: 33%; */
+    background:#359381;
+    /* float: left; */
+    margin-top: 1%;
+    box-shadow: 0px 15px 30px rgba(0,0,0,0.2);
+    text-align: center;
+    transition: 0.9s;
+}
+.single-price:hover{
+    color: white;
+}
+.pricing{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: 5% auto 0 auto;
+    text-align: center;
+}
+.pricing:hover{
+    border: 2px solid white;
+}
+.plan{
+    margin-top: 10%;
+}
+.plan:hover h4{
+    color: white;
+}
+.single-price h2{
+    font-size: 18PX;
+    color: black;
+    line-height: 3;
+    text-transform: uppercase;
+}
+.single-price:hover h1,.pricing:hover h3{
+    color: white;
+
+}
+.pricing h3{
+    font-size: 38px;
+    color: black;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.plan h4{
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 2;
+    color: black;
+
+}
+
+.single-price:hover{
+    background: #359381;
+    color: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    transition: scale(2.2);
+    z-index: 5;
+    border-radius: 25px;
+}
+.single-price a{
+    text-decoration: none;
+    background: #359381;
+    color: white;
+    padding: 10px 60px;
+    display: inline-block;
+    margin: 10% auto;
+    border-radius: 20px;
+
+}
+.single-price:hover a{
+    border: 2px solid white;
+}
+

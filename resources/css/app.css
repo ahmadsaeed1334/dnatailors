@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+@import '~@fortawesome/fontawesome-free/css/all.css';
+/* resources/css/app.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Your custom styles go here */
+/* resources/css/app.css */
+/* ... */
+/* Add styles for your cart */
+.cart-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.cart-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.cart-item img {
+    max-width: 100px;
+}
+
+.cart-total {
+    margin-top: 10px;
+    font-weight: bold;
+}
+/* resources/css/app.css */
+
+.product-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+}
+
+.product-card button {
+    background-color: #3490dc;
+    color: #ffffff;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+

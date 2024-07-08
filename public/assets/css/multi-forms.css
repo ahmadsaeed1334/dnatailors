@@ -1,0 +1,236 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+} */
+.container{
+    /* width: 420px; */
+    /* height: 550px; */
+    /* margin: 8% auto; */
+    /* background: white; */
+    position: relative;
+    border-radius: 8px;
+    /* overflow: hidden; */
+    
+}
+ul{
+    list-style-type: none;
+    /* margin: 0;
+    padding: 0;
+    overflow: hidden; */
+}
+
+h3{
+    /* margin-bottom: 40px; */
+    text-align: center;
+    /* color: #359381; */
+}
+/* .container form{
+    width: 280px;
+    top: 100px;
+    left: 40px;
+    position: absolute;
+    transition: 0.5s;
+}
+form input{
+    width: 100%;
+    padding: 10px 5px;
+    margin: 5px 0;
+    border: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+
+} */
+::placeholder{
+    color: #359381;
+}
+label{
+    color: #359381;
+    /* padding: 5px 5px; */
+} 
+/* select{
+    width: 120px;
+}
+form select{
+    margin-top: 20px;
+} */
+/* form button{
+    width: 80px;
+    height: 35px;
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    color: #359381;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 5px;
+    background: white;
+}
+form button:hover{
+    color: white;
+    background: #359381;
+} */
+#form2{
+    left: 450px;
+}
+#form3{
+    left: 450px;
+}
+#form4{
+    left: 450px;
+}
+#form5{
+    left: 450px;
+}
+#form6{
+    left: 450px;
+}
+#form2 .option{
+    width: 200px;
+}
+#form3 .option{
+    width: 200px;
+}
+
+.step-row{
+    width: 400px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 -1px 5px -1px #000;
+    position: relative;
+}
+.step-col{
+    width: 80px;
+    text-align: center;
+    color: #359381;
+    position: relative;
+}
+#progress{
+    position: absolute;
+    width: 60px;
+    height: 100%;
+    background: linear-gradient(to right,#359381,white);
+    transition: 0.1s;
+}
+#progress::after{
+    content: 0;
+    height: 0;
+    width: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    right: -20px;
+    top: 0;
+    border-left: 20px solid #ffad06;
+}
+#generate{
+    margin-left: 250px;
+    margin-bottom: 10px;
+    padding-right: 100px;
+}
+.btn-button button{
+    width: 80px;
+    height: 35px;
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    color: #359381;
+    cursor: pointer;
+    margin-top: 150px;
+    margin-left: 40px;
+}
+.btn-button button:hover{
+    color: white;
+    background: #359381;
+}
+
+.menubar{
+    text-align: end;
+    padding-top: 20px;
+}
+.menubar button {
+    background: white;
+    color: #000;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.menubar button:hover{
+    background: #359381;
+    color: white;
+}
+table{
+	margin-top: 10px;
+	text-align: center;
+	background: #fff;
+	color: black;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+/* #show th, #show td{
+	padding: 13px;
+}
+
+#btna td input{
+	width: 100%;
+} */
+
+
+/** Pagination buttons **/
+/* .pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+    background: #DC143C;
+    border: 1px solid #DC143C;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+    background: rgba(229, 76, 16, .1);
+    color: #008B8B;
+}
+
+.pagination>.disabled>a,
+.pagination>.disabled>a:focus,
+.pagination>.disabled>a:hover,
+.pagination>.disabled>span,
+.pagination>.disabled>span:focus,
+.pagination>.disabled>span:hover {
+    background: rgba(229, 76, 16, .1);
+}
+
+.paginationn>li>a:hover,
+.pagination>li>span:hover {
+} */
+
+/* .navigation a{
+    text-decoration: none;
+    color: #359381;
+    padding: 6px 10px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+.navigation a:hover,
+.navigation a:active{
+    background: #359381;
+    color: white;
+} */

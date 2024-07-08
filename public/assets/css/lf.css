@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2? family=popins:wght@300;400;500;600;700;800;900 & display=swap');*
+/* *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+ 
+body{
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   min-height: 100hv;
+   background: #f5f8fa;
+   
+} */
+header{
+  position:fixed;
+  top: 0;
+  left: 0;
+  padding: 10px 100px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 10000;
+  background-color: white;
+}
+#logo-img{
+  height: 90px;
+  margin: 0px 0px;
+  
+}
+.logo{
+  font-size: 2em;
+  color: #359381;
+  pointer-events: none;
+  margin-right: 280px;
+}
+/* .navigation a{
+  text-decoration: none;
+  color: #359381;
+  padding: 0px 6px;
+  border-radius: 20px;
+ margin-left: 40PX;
+  font-weight: 600;
+}
+.navigation a:hover,
+.navigation a:active{
+  background: #359381;
+  color: white;
+} */
+#plant{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0px;
+}
+#leaf{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0px;
+}
+.contact-form {
+  background: #359381;
+    padding: 50px;
+    width: 25%;
+    padding-bottom: 150px;
+    padding-top: 50px;
+    border-radius: 40px;
+    margin-left: 30;
+    margin-top: 9%;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .contact-form h2 {
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+  }
+  .contact-form .input-box {
+    position: relative;
+    width: 90%;
+    border-radius: 40px;
+    margin-top: 0px;
+  }
+  input{
+    border-radius: 30px;
+    border: 1px solid black;
+    overflow: auto;
+  }
+  .contact-form .input-box input,
+  .contact-form .input-box textarea {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+   
+  }
+  .contact-form .input-box span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #359381;
+  }
+  .map-container{
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    z-index: 101;
+  }
+  .contact-form .input-box input:focus ~ span,
+      .contact-form .input-box textarea:focus ~ span {
+        color: white;
+        font-size: 12px;
+        transform: translateY(-20px);
+      }
+      .contact-form .input-box input[type="submit"] {
+        width: 100%;
+        background: #359381;
+        color: white;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+        font-size: 18px;
+        border: 1pX;
+        transition: 0.5s;
+        border-radius: 30PX;
+      }
+      .contact-form .input-box input[type="submit"]:hover {
+        background: #fff;
+        color: black;
+      }
+      .signup-link p{
+        text-align:left ;
+        margin-left: 10px;
+        color: white;
+      }
+      .signup-link a{
+        color: white;
+      }
+      @media(max-width:991px){
+        .contact-form{
+          width: 20%;
+        }
+      }
